@@ -1,10 +1,10 @@
 console.log("Welcome to my first page!");
 
-let touch = document.querySelector(".section__touch");
-let photo = document.querySelector(".section__photo");
-let remove = document.querySelector(".remove");
-let source = document.querySelector(".source");
-let button = document.querySelector(".section__button");
+let touch = document.querySelector(".section__touch--js");
+let photo = document.querySelector(".section__photo--js");
+let remove = document.querySelector(".section__remove");
+let source = document.querySelector(".section__source");
+let button = document.querySelector(".js--button");
 let body = document.querySelector(".body");
 let choice = document.querySelector(".js-choice");
 
