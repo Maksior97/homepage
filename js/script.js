@@ -1,7 +1,7 @@
 console.log("Welcome to my first page!");
 
-let touch = document.querySelector(".touch");
-let photo = document.querySelector(".photo");
+let touch = document.querySelector(".section__touch");
+let photo = document.querySelector(".section__photo");
 let remove = document.querySelector(".remove");
 let source = document.querySelector(".source");
 let button = document.querySelector(".section__button");
