@@ -1,0 +1,9 @@
+.main__button {
+    margin-left: 13%;
+    width: 73%;
+    padding: 10px;
+    box-shadow: 2px 2px 8px blueviolet;
+    color: hwb(235 13% 1%);
+    background: linear-gradient(hwb(309 0% 0% / 0.378), hwb(235 13% 1% / 0.378));
+    border: none;
+}
