@@ -18,4 +18,3 @@
     button.addEventListener("click", onChangeBackgroundClick);
 
 }
-
