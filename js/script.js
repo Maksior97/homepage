@@ -1,25 +1,21 @@
-console.log("Welcome to my first page!");
+{
+    const welcome = () => {
+        console.log("Welcome to my first page!");
+    }
 
-let touch = document.querySelector(".section__touch--js");
-let photo = document.querySelector(".section__photo--js");
-let remove = document.querySelector(".section__remove");
-let source = document.querySelector(".section__source");
-let button = document.querySelector(".js--button");
-let body = document.querySelector(".body");
-let choice = document.querySelector(".js-choice");
+    welcome();
 
-touch.addEventListener("click", () => {
-    photo.remove();
-});
+    const button = document.querySelector(".js--button");
 
-remove.addEventListener("click", () => {
-    source.remove();
-});
+    const onChangeBackgroundClick = () => {
+        const body = document.querySelector(".body");
+        const choice = document.querySelector(".js-choice");
 
-button.addEventListener("click", () => {
-    body.classList.toggle("dark");
+        body.classList.toggle("dark");
+        choice.innerText = body.classList.contains("dark") ? "Jasny" : "Ciemny";
+    }
 
-    choice.innerText = body.classList.contains("dark") ? "Jasny" : "Ciemny";
-});
+    button.addEventListener("click", onChangeBackgroundClick);
 
+}
 
