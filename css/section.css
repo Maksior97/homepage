@@ -1,6 +1,6 @@
 .section {
     max-width: 1000px;
-    padding: 20px auto;
+    padding: 20px auto 10px;
     box-shadow: 2px 2px 8px blueviolet;
     margin: 20px auto;
     background: linear-gradient(hwb(309 0% 0% / 0.378), hwb(235 13% 1% / 0.378));
@@ -24,14 +24,6 @@
     margin-right: auto;
     border: 5px outset blueviolet;
     box-shadow: 5px 0px 20px 12px rgba(137, 43, 226, 0.622);
-}
-
-.section {
-    padding-bottom: 10px;
-}
-
-.section__button {
-    margin-left: 80%;
 }
 
 .section__tableContainer {
