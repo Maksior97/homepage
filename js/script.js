@@ -3,9 +3,12 @@
         console.log("Welcome to my first page!");
     }
 
-    welcome();
+    const init = () => {
+        const button = document.querySelector(".js--button");
+        button.addEventListener("click", onChangeBackgroundClick);
 
-    const button = document.querySelector(".js--button");
+        welcome();
+    }
 
     const onChangeBackgroundClick = () => {
         const body = document.querySelector(".body");
@@ -15,6 +18,5 @@
         choice.innerText = body.classList.contains("dark") ? "Jasny" : "Ciemny";
     }
 
-    button.addEventListener("click", onChangeBackgroundClick);
-
+    init();
 }
